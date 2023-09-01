@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ecommerce</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/all.css"> 
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container-fluid">
+      <div class="top-header">
+          <div class="logo-bx">            
+            <button class="sidebar"><span></span><span></span> <span></span></button>
+            
+              <nav class="menu">
+               <ul>
+                  <li><a href="#">Makeup</a> </li>                    
+                  <li><a href="#">Skin</a> </li>
+                  <li> <a href="#">Hair</a> </li>
+                  <li><a href="#">Appliances</a></li>
+                  <li><a href="#">Bath & Body</a></li>
+                  <li><a href="#">Natural</a><li>
+                </ul>
+              </nav>
+            <a href="" class="logo"><img src="images/logo.webp" alt=""> </a>
+        </div>
+              <div class="pincode">
+                <button><i class="fa fa-map-marker" aria-hidden="true"></i>Deliver to <span>122001</span> </button>
+              </div>
+              <div class="searchbx">
+                <button><i class="fa fa-search"></i></button>
+                <input type="search" name="" placeholder="Search Eommerce product">
+              </div>
+              <div class="user-cart">
+                    <div class="mini-cart">
+                      <button class="cart-icon"><i class="fa fa-shopping-cart"></i> My Cart</button>
+                    </div>
+                    <button class="sign"><i class="fa fa-user" style="margin-right: 6px;"></i> Sign in</button>
+              </div>
+      </div>
+</div>
+  </header>
+
+  <div class="banner-section">
+     <div class="banner-slider owl-carousel">
+      <div class="banner-slider-item">
+        <img src="images/banner5.webp">
+      </div>
+       <div class="banner-slider-item">
+       <img src="images/banner2.webp">
+      </div>
+       <div class="banner-slider-item">
+         <img src="images/banner3.webp">
+      </div>
+       <div class="banner-slider-item">
+         <img src="images/banner1.webp">
+      </div>
+       <div class="banner-slider-item">
+         <img src="images/banner4.webp">
+      </div>
+    </div>
+  </div>
+<!--product-category-->
+
+<div class="product-category-sec page-sec">
+  <div class="container">
+
+    <h1 class="heading">Our Products</h2>
+    <ul class="category-tabs">
+      <li class="active"  data-tab="category1">Hair care </li>
+      <li data-tab="category2">Stress care</li>
+      <li data-tab="category3">Health care</li>
+      <li data-tab="category4">Beard care</li>
+      <li data-tab="category5">Beauty care</li>
+    </ul>
+    <div class="product-category-list active" id="category1">
+       <div class="product-item-flex">
+          <div class="product-item">
+              <img src="images/product1.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>                
+              </div>          
+          </div>
+          <div class="product-item">
+              <img src="images/product2.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+           <div class="product-item">
+              <img src="images/product3.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                 <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+           <div class="product-item">
+              <img src="images/product4.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+        </div>
+    </div>
+    <div class="product-category-list" id="category2">
+       <div class="product-item-flex">
+          <div class="product-item">
+              <img src="images/product5.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+          <div class="product-item">
+              <img src="images/product6.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+           <div class="product-item">
+              <img src="images/product7.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                 <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+           <div class="product-item">
+              <img src="images/product8.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                 <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+        </div>
+    </div>
+    <div class="product-category-list" id="category3">
+       <div class="product-item-flex">
+          <div class="product-item">
+              <img src="images/product9.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+          <div class="product-item">
+              <img src="images/product10.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+           <div class="product-item">
+              <img src="images/product11.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                 <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+           <div class="product-item">
+              <img src="images/product12.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                 <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+        </div>
+    </div>
+    <div class="product-category-list" id="category4">
+       <div class="product-item-flex">
+          <div class="product-item">
+              <img src="images/product13.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+          <div class="product-item">
+              <img src="images/product14.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+           <div class="product-item">
+              <img src="images/product15.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                 <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+           <div class="product-item">
+              <img src="images/product16.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                 <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+        </div>
+    </div>
+    <div class="product-category-list" id="category5">
+       <div class="product-item-flex">
+          <div class="product-item">
+              <img src="images/product17.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+          <div class="product-item">
+              <img src="images/product18.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+           <div class="product-item">
+              <img src="images/product19.jpg">
+              <div class="product-detail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                 <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+           <div class="product-item">
+              <img src="images/product1.jpg">
+              <div class="product-detai20">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                 <div class="d-flex justify-content-between align-items-center">
+                   <div class="price">₹599</div>
+                      <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+                </div>  
+              </div>          
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="salse-coupen page-sec">
+  <div class="container">
+    <ul class="sales-coupon">
+      <li><img src="images/sales-coup1.webp" width="310" height="170"></li>
+      <li><img src="images/sales-coup2.webp"width="310" height="170"></li>
+      <li><img src="images/sales-coup3.jpg"width="310" height="170"></li>
+      <li><img src="images/sales-coup5.webp"width="310" height="170"></li>      
+    </ul>
+  </div>
+</div>
+
+<!--best seller-->
+
+<div class="bestseller-sec page-sec">
+  <div class="container">
+    <h1 class="heading">Best Seller</h1>
+    <div class="best-seller-flex owl-carousel">
+      <div class="best-seller-item">
+        <img src="images/product1.jpg">
+        <div class="bestseller-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="">
+                 <div class="price">₹599</div>
+                 <span class="price" style="text-decoration: line-through;">₹350</span>
+              </div>
+                <small class="discount">40%</small>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+              </div>
+        </div>
+        <div class="tag-nm">
+              <span>Best Seller</span>
+        </div>
+      </div>
+      <div class="best-seller-item">
+        <img src="images/product8.jpg">
+        <div class="bestseller-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="">
+                 <div class="price">₹599</div>
+                 <span class="price" style="text-decoration: line-through;">₹350</span>
+              </div>
+                <small class="discount">40%</small>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+              </div>
+        </div>
+        <div class="tag-nm">
+              <span>Best Seller</span>
+        </div>
+      </div>
+      <div class="best-seller-item">
+        <img src="images/product14.jpg">
+        <div class="bestseller-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="">
+                 <div class="price">₹599</div>
+                 <span class="price" style="text-decoration: line-through;">₹350</span>
+              </div>
+                <small class="discount">40%</small>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+              </div>
+        </div>
+        <div class="tag-nm">
+              <span>Best Seller</span>
+        </div>
+      </div>
+      <div class="best-seller-item">
+        <img src="images/product16.jpg">
+        <div class="bestseller-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="">
+                 <div class="price">₹599</div>
+                 <span class="price" style="text-decoration: line-through;">₹350</span>
+              </div>
+                <small class="discount">40%</small>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+              </div>
+        </div>
+        <div class="tag-nm">
+              <span>Best Seller</span>
+        </div>
+      </div>
+      <div class="best-seller-item">
+        <img src="images/product19.jpg">
+        <div class="bestseller-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="">
+                 <div class="price">₹599</div>
+                 <span class="price" style="text-decoration: line-through;">₹350</span>
+              </div>
+                <small class="discount">40%</small>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+              </div>
+        </div>
+        <div class="tag-nm">
+              <span>Best Seller</span>
+        </div>
+      </div>
+      <div class="best-seller-item">
+        <img src="images/product1.jpg">
+        <div class="bestseller-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="">
+                 <div class="price">₹599</div>
+                 <span class="price" style="text-decoration: line-through;">₹350</span>
+              </div>
+                <small class="discount">40%</small>
+                <button class="add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+              </div>
+        </div>
+        <div class="tag-nm">
+              <span>Best Seller</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--blog-->
+
+<div class="blog-section page-sec">
+  <div class="container">    
+    <h1 class="heading">Blog</h1>
+      <div class="news-slider owl-carousel">
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="images/sales-coup1.webp" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ......</p>
+            <span class="post-date"><i class="fa fa-calendar"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div>
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="images/sales-coup2.webp" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ......</p>
+            <span class="post-date"><i class="fa fa-calendar"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div>
+        
+        <div class="post-slide">
+          <div class="post-img">
+            <img src="images/sales-coup3.jpg" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum......</p>
+            <span class="post-date"><i class="fa fa-calendar"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div>
+         <div class="post-slide">
+          <div class="post-img">
+            <img src="images/sales-coup5.webp" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum......</p>
+            <span class="post-date"><i class="fa fa-calendar"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div>
+         <div class="post-slide">
+          <div class="post-img">
+            <img src="images/sales-coup3.jpg" alt="">
+            <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
+          </div>
+          <div class="post-content">
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet.</a>
+            </h3>
+            <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum......</p>
+            <span class="post-date"><i class="fa fa-calendar"></i>Out 27, 2019</span>
+            <a href="#" class="read-more">read more</a>
+          </div>
+        </div>
+      </div>
+    
+  </div>
+</div>
+
+<footer class="footer page-sec">
+  <div class="container">
+      <h1 class="heading">Contact Us </h1>
+      <div class="contact-flex">
+              <div class="contact-form" >
+                  <form id="myForm">
+                      <ul>
+                          <li class="half">
+                              <label>Full Name</label>
+                              <input type="text" id="fname" required>                               
+                          </li>
+                          <li class="half">
+                              <label>Category</label>
+                              <select>
+                                <option>--Select Category--</option>
+                                <option>Hair Care</option>
+                                <option>Stress Care</option>
+                                <option>Health care</option>
+                                <option>Brand Care</option>
+                                <option>Beuty Care</option>
+                              </select>                                
+                          </li>
+                          <li class="half">
+                              <label>Mobile No</label>
+                              <input type="text" id="mobile" required>                                
+                          </li>
+                          <li class="half">
+                              <label>Email</label>
+                              <input type="text" id="email" required>                                
+                          </li>
+                          <li class="full">
+                              <label>Message</label>
+                              <textarea type="text" id="message" required></textarea>                              
+                          </li>
+                      </ul>
+                      <button type="submit" value="submit">Submit</button>
+                  </form>
+                
+              </div>
+           <div class="right">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14037.067306553541!2d77.0393728990453!3d28.411204535917143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d228f446b3881%3A0x9d798b7f0e65fcbc!2sSector%2049%2C%20Gurugram%2C%20Haryana%20122018!5e0!3m2!1sen!2sin!4v1692556153603!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            
+       </div>
+        <div class="footer-flex">
+           <div class="about-txt footer-list">
+            <h4>About</h4>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>                   
+                  
+          </div>
+          <div class="useful-link footer-list">
+            <h4>USEFUL LINKS</h4>
+                <ul>
+                  <li><a href ="">About us</a></li>
+                  <li><a href ="">Blog</a></li>
+                  <li><a href ="">offer Zone</a></li>
+                  <li><a href ="">privacy and policy</a></li>
+                </ul>
+          </div>
+          <div class="useful-link footer-list">
+            <h4>CATEGORIES</h4>
+               <ul>
+                  <li><a href ="">Beuty</a></li>
+                  <li><a href ="">Hair</a></li>
+                  <li><a href ="">Body</a></li>
+                  <li><a href ="">face</a></li>
+                </ul>
+          </div>
+         
+        
+        <div class="social-media footer-list">
+          <h4>Social Media</h4>
+
+          <ul>
+            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+            <li><a href=""><i class="fa fa-youtube"></i></a></li>
+            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        </div>
+  </div>
+</footer>
+
+<div class="cart-sidebar">
+      <div class="cart-head">
+        <a href="">My Cart</a>
+        <button class="cancel-btn">&times;</button>
+      </div>
+      <div class="mycart-bx">
+            <img src="images/shopping-bag.jpg">
+            <span>You don't have any items in your cart</span>
+            <p>Your favourite items are just a click away</p>
+            <button class="shopping-btn">Start shoping</button>
+        </div>
+      </div>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+@media(min-width:320px) and (max-width: 767px){
+	.header{
+		height: auto;
+	}
+	.header .container-fluid{
+		max-width: 95%;
+	}
+	.logo-bx{
+		width: 65%;
+	}
+	.heading{
+		font-size: 22px;
+	}
+	.menu.active{
+		z-index: 2;
+	}
+	.menu{
+		width: 200px;
+	}
+	.heading{
+		width: 100%;
+	}
+	.sidebar.active{
+		z-index: 3;
+    top: 0;
+    left: 135px;
+	}
+	.logo img{
+		max-width: 100px;
+	}
+	.top-header{
+		flex-wrap: wrap;
+		height: auto;
+		position: relative;
+	}
+	.pincode{
+		width: 100%;
+		order: 2;
+		background: #f1f1f1;
+	}
+	.pincode button{
+		background: #f1f1f1;
+		border: 0;
+	}
+	.user-cart{
+	position: absolute;
+    right: 0px;
+    width: 35%;
+    justify-content: end;
+    left: auto;
+    top: 11px;
+	}
+	.sign{
+		display: none;
+	}
+	.searchbx{
+	    width: 100%;
+    margin: 18px 0px;
+    height: 50px;
+	}
+	.banner-section{
+		margin-top: 190px;
+	}
+	.banner-slider-item{
+		height: auto;
+	}
+	.product-item-flex{
+		flex-wrap: wrap;
+	}
+	.product-item{
+		width: 100%;
+		margin-top: 15px;
+	}
+	.category-tabs{
+		    overflow-x: scroll;
+		    overflow-y: hidden;
+		    height: 60px;
+		    white-space: nowrap;
+		    min-width: 300px;
+	}
+	.category-tabs li{
+		height: 35px;
+	}
+	.sales-coupon li{
+		width: 100%;
+		margin: 10px 0px;
+	}
+	.footer-flex{
+		flex-wrap: wrap;
+		column-gap: 25px;
+	}
+	.footer-list{
+		width: 40%;
+	}
+	.about-txt{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.owl-dots{
+		bottom: 25px;
+	}
+	.news-slider{
+		margin-top: 35px;
+	}
+	.post-slide{
+		margin: 10px 0px;
+	}
+	.contact-flex{
+		flex-wrap: wrap;
+	}
+	.contact-flex .contact-form{
+		width: 100%;
+	}
+	.contact-form ul .half{
+		width: 100%;
+	}
+	.contact-form ul .full{
+		width: 100%;
+	}
+	.contact-flex .right{
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+
